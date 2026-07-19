@@ -1,0 +1,58 @@
+# double number using function
+
+a = int(input("Enter number:"))
+
+def double_no(num):
+    print("Number is:",num*a)
+
+double_no(a)
+
+
+# calculator using function
+
+
+a = int(input("Enter number:"))
+b = int(input("Enter number:"))
+
+def add(a,b):
+    print("Addition is " , a + b)
+def sub(a,b):
+    print("Substraction is " , a - b)
+def div(a,b):
+    print("Division is:",a/b)
+def mul(a,b):
+    print("Multiplication is :" , a*b)
+    
+print("1.Addition")
+print("2.Substraction")
+print("3.Division")
+print("4.Multiplication")
+
+
+choice = int(input("Enter your choice :-"))
+if choice == 1:
+    add(a , b)
+elif choice == 2:
+    sub(a,b)
+elif choice == 3:
+    div(a,b)
+elif choice == 4:
+    mul(a,b)
+else:
+    print("Invalid choice")
+    
+     
+# Fibonacci series
+
+n = int(input("Enter number:"))
+
+a = 0 
+b = 1
+
+for i in range(n):
+    print(a)
+    c=a+b
+    a=b
+    b=c
+   
+
